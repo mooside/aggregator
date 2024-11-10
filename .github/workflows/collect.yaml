@@ -14,10 +14,10 @@ env:
   TZ: Asia/Shanghai
 
   # github access token
-  GIST_PAT: ${{ secrets.GIST_PAT }}
+  GIST/PAT: ${{ secrets.GIST_PAT }}
 
   # github username and gist id, separated by '/'
-  GIST_LINK: ${{ secrets.GIST_LINK }}
+  GIST/LINK: ${{ secrets.GIST_LINK }}
 
   # the url to the list of airports that you maintain yourself
   # each line include domain, coupon and invitation code, the domain must be included, and the latter two items are optional
